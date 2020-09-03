@@ -37,5 +37,9 @@ function render() {
   }
 };
 
+store.dispatch({type: 'ADD_CANDY', candy: 'Bubble Gum'})
+store.dispatch({type: 'ADD_CANDY', candy: 'Tootsie Rolls'})
+
+
 // Use your createStore function and the functions provided here to create a store.
 // Once the store is created, call an initial dispatch.
